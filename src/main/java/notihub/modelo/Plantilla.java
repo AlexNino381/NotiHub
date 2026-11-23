@@ -27,6 +27,14 @@ public class Plantilla {
         return nombre;
     }
 
+    public String getAsuntoModelo() {
+        return asuntoModelo;
+    }
+
+    public String getCuerpoModelo() {
+        return cuerpoModelo;
+    }
+
     /** Crea un mensaje personalizado para el usuario indicado. */
     public Mensaje generar(TipoMensaje tipo, Usuario usuario) {
         Map<String, String> valores = new HashMap<>();
